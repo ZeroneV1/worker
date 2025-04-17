@@ -1,1 +1,14 @@
+[build]
+  functions = "functions"
 
+[[edge_functions]]
+path = "/proxy/flux"
+function = "proxy/flux"
+
+[[edge_functions]]
+path = "/proxy/google"
+function = "proxy/google"
+
+[[edge_functions]]
+path = "/proxy/example"
+function = "proxy/example"
